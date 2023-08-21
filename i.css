@@ -1,0 +1,203 @@
+/* Add a black background color to the top navigation */
+  .topnav {
+    background-color: #1D5D9B;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #fff;
+    color: black;
+  }
+  
+  /* Add an active class to highlight the current page
+  .topnav a.active {
+    background-color: #F4D160;
+    color: white;
+  } */
+  
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  }
+
+  body, html {
+    height: 100%;
+}
+
+
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+footer {
+  background-color: #1D5D9B;
+  color: #fff;
+  padding: 30px 0;
+
+}
+
+/*
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+
+}
+*/
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+
+.col-md-4 {
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+
+}
+
+
+h4 {
+  margin-bottom: 20px;
+
+}
+
+
+ul.list-unstyled {
+  margin-bottom: 0;
+
+}
+
+
+ul.list-inline {
+  margin-bottom: 0;
+
+}
+
+
+ul.list-inline li {
+  margin-right: 10px;
+
+}
+
+
+ul.list-inline li:last-child {
+  margin-right: 0;
+
+}
+
+ul.list-inline li a {
+  color: #fff;
+  text-decoration: none;
+
+}
+
+
+ul.list-inline li a:hover {
+  color: #ccc;
+
+}
+@media (max-width: 767px) {
+ .col-md-4 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+}
+
+div.scroll-container {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+div.scroll-container img {
+  padding: 10px;
+}
+
+body{
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 601px) {
+  div.example {
+    font-size: 80px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  div.example {
+    font-size: 30px;
+  }
+}
+
+ /* Container needed to position the button. Adjust the width as needed */
+ .imagediv {
+  position: relative;
+  width: 100%;
+}
+
+/* Make the image responsive */
+.imagediv img {
+  width: 100%;
+  height: auto;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.imagediv .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container .btn:hover {
+  background-color: black;
+}
+
+
+.container {
+  width:100%;
+}
+
